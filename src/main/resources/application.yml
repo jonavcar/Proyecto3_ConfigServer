@@ -1,0 +1,15 @@
+server:
+    port: 9997
+ 
+spring:
+  application:
+      name: api-configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jonavcar/Proyecto2_ConfigData
+          searchPaths: application-config
+          default-label: main
+          username: jonavcar@gmail.com
+          password: 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
