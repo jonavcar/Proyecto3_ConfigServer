@@ -8,8 +8,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/jonavcar/Proyecto2_ConfigData
+          uri: https://github.com/jonavcar/Proyecto3_ConfigData
           searchPaths: application-config
           default-label: main
           username: jonavcar@gmail.com
-          password: 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
+          password: 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
